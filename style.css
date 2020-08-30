@@ -9,7 +9,10 @@
 	border: 5px outset chocolate;
 	background-color: lightgreen;
 	text-align: center;
-	font-size: 26px;
+  font-size: 26px;
+  margin: auto;
+  display: block;
+  width: 60%;
 }
 
 .title2 {
@@ -23,6 +26,9 @@
   font-size: 26px;
   background-color: lightsalmon;
   text-align: center;
+  margin: auto;
+  display: block;
+  width: 90%;
 }
 
 .box2 {
@@ -36,6 +42,9 @@
   font-size: 30px;
   background-color:gold;
   text-align: center;
+  margin: auto;
+  display: block;
+  width: 80%;
 }
 
 .box4 {
@@ -102,7 +111,7 @@
   text-decoration: none;
   margin: auto;
   display: block;
-  width: 12%;
+  width: 15%;
 }
 
 .button2:hover {
@@ -115,6 +124,32 @@
 .button2:active {
   font-size: 22px;
   background-color: darkgreen;
+  padding: 18px 18px;
+  text-align: center;
+}
+
+.button3 {
+  border: 2px outset black;
+  font-size: 25px;
+  background-color: magenta;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+  display: block;
+  width: 22%;
+}
+
+.button3:hover {
+  font-size: 25px;
+  background-color: purple;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.button3:active {
+  font-size: 22px;
+  background-color: purple;
   padding: 18px 18px;
   text-align: center;
 }
