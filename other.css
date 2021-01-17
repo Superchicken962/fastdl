@@ -1,0 +1,19 @@
+.centeredtext {
+    text-align: center;
+}
+
+.unavailable-download {
+    color: red;
+}
+
+.available-download {
+    color: blue;
+}
+
+.almost-available-download {
+    color: orange;
+}
+
+a {
+    text-decoration: none !important;
+}
